@@ -1,0 +1,10 @@
+{{#alunno}}
+
+{{getNome}} {{getCognome}} {{getEta}}
+
+{{/alunno}}
+
+{{^alunno}}
+
+alunno non trovato
+{{/alunno}}
